@@ -14,7 +14,7 @@ export class AgregarEmpleadoComponent implements OnInit{
   empleadoForm:FormGroup;
   enviado = false;
   empleadoDepartamento: any=[
-    'Cotabilidad', 'Finanzas', 'Recursos Humanos', 'TI', 'Ventas'
+    'Contabilidad', 'Finanzas', 'Recursos Humanos', 'TI', 'Ventas'
   ];
 
   constructor(

@@ -4,7 +4,8 @@ const bodyParser= require('body-parser')
 const cors = require('cors')
 
 //coneccion con la bd
-mongoose.connect('mongodb://127.0.0.1:27017/empleados')
+mongoose.connect('mongodb+srv://margaritalmti21:Herederadefuego1@cluster0.dvti0ur.mongodb.net/empleados?retryWrites=true&w=majority&appName=Cluster0')
+//.connect('mongodb://127.0.0.1:27017/empleados')
 .then((x)=>{
     console.log(`Conectado exitosamente a la base de datos ${x.connections[0].name}`)
 })
